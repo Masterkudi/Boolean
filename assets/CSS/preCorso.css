@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    
+}
+
+#backgroundImage{
+    width: 100%;
+    position: absolute;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.4); /* colore di sfondo semitrasparente */
+    position: fixed;
+    top: 7%;
+    right: 17.5%;
+    left: 17.5%;
+    width: 65%;
+    height: 77%;
+    border-radius: 2%;
+  }
+
+#logo {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    color: #00DD01;
+    align-items: center;
+}
+  
