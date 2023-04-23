@@ -4,10 +4,14 @@ body {
     margin: 0;
 }
 
+/* Immagine di sfondo */
+
 #backgroundImage{
     width: 100%;
     height: 100%;  
 }
+
+/* container semitrasparente contiene tutti gli altri elementi */
 
 #container {
     font-family: 'Roboto', sans-serif;
@@ -19,7 +23,9 @@ body {
     width: 60%;
     height: 75%;
     border-radius: 2%;
-  }
+}
+
+/*  */
 
 #logo {
     margin-top: 3.5rem;
@@ -48,7 +54,7 @@ body {
     position: absolute;
     top: 30%;
     right: 10%;
-    left: 10%;
+    left:10%;
     width: 80%;
     height: 2rem; 
 }
@@ -59,16 +65,21 @@ body {
     height: 50%;
 }
 
-.Options {
+.options {
     color: white;
-    margin-top: 5rem;
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+    margin-right: 6rem;
     font-size: 1.3rem;
+}
+
+p {
+    margin: 0.8em;
 }
 
 
 #Gino22 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 0.7rem;
     line-height: 0;
 }
@@ -85,7 +96,7 @@ body {
     line-height: 0;
 }
 
-#Charge01 {
+#charge01 {
     margin-bottom: 1rem;
     background-color: #f5b453;
     position: relative;
@@ -94,7 +105,7 @@ body {
     border-radius: 0.3rem;
 }
 
-#Charge02 {
+#charge02 {
     margin-bottom: 1rem;
     background-color: #1dc31d;
     position: relative;
@@ -103,7 +114,7 @@ body {
     border-radius: 0.3rem; 
 }
 
-#Charge03 {
+#charge03 {
     margin-bottom: 1rem;
     background-color: #be4141; 
     position: relative;
