@@ -2,53 +2,113 @@
 
 body {
     margin: 0;
-    
 }
 
 #backgroundImage{
     width: 100%;
-    position: fixed;
+    height: 100%;
+    
 }
 
 #container {
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0.4); /* colore di sfondo semitrasparente */
-    position: fixed;
-    top: 3%;
-    right: 17.5%;
-    left: 17.5%;
-    width: 65%;
-    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5); /* colore di sfondo semitrasparente */
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    left: 20%;
+    width: 60%;
+    height: 75%;
     border-radius: 2%;
   }
 
 #logo {
-    margin-top: 4rem;
+    margin-top: 3.5rem;
     margin-left: 40%;
     margin-right: 40%;
-    padding: 0;
+    padding: 2;
     width: 10rem;
     height: 5rem;
 }
 
-h1 {
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-top: 0;
-    font-size: 1em;
+#title {
+    position: relative;
+    margin-top:-20px;
+    margin-left: 30%;
+    margin-right: 27%;
+    font-size: 0.78em;
     color: #00DD01;
-    align-self: center;
 }
 
-#buttons {
-    margin-top: 0;
+#buttonsContainer {
+    margin-top:-20px;
     background-color: #00DD01;
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     top: 30%;
-    right: 20%;
-    left: 20%;
-    width: 60%;
-    height: 2rem;
-    border-radius: 1%;
+    right: 10%;
+    left: 10%;
+    width: 80%;
+    height: 2rem; 
 }
-  
+
+.button {
+    font-size: 10px;
+    margin: 0 2px;
+    height: 50%;
+}
+
+.Options {
+    color: white;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+}
+
+
+#Gino22 {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    line-height: 0;
+}
+
+#Mike24 {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    line-height: 0;
+}
+
+#Fede154 {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    line-height: 0;
+}
+
+#Charge01 {
+    margin-bottom: 1rem;
+    background-color: #f5b453;
+    position: relative;
+    width: 35%;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+}
+
+#Charge02 {
+    margin-bottom: 1rem;
+    background-color: #1dc31d;
+    position: relative;
+    width: 60%;
+    height: 1.5rem;
+    border-radius: 0.3rem; 
+}
+
+#Charge03 {
+    margin-bottom: 1rem;
+    background-color: #be4141; 
+    position: relative;
+    width: 15%;
+    height: 1.5rem;
+    border-radius: 0.3rem; 
+}

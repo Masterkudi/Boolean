@@ -6,32 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Challenge</title>
-    <link rel="stylesheet" href="assets/CSS/preCorso.css">
+    <link rel="stylesheet" href="assets/CSS/preCorso.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
 </head>
 
 <body>
     <img id="backgroundImage" src="assets/Img/background.jpg" alt="backgroundImage">
     <div id="container">
         <img id="logo" src="assets/Img/logo.png" alt="limLogo">
-        <div id="h1">
-            <h1>Taking booleaners from A to B</h1>
+
+        <div id="title">
+            <h1>Taking Booleaners from A to B</h1>
         </div>
-        <div id="buttons">
-            <div>
-                
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-
+        <div id="buttonsContainer">
+            
+                <button class="button" onclick="alert('Prenotazione confermata!')">Prenota</button>
+                <button class="button" onclick="alert('hai terminato la prenotazione!')">Termina Prenotazione</button>
+                <button class="button" onclick="alert('hai acceso le luci!')">Accendi Luci</button>
+            
         </div>
-
-
+        <div class="Options">
+            <div>
+                <input class="checkbox" type="checkbox" name="checkbox" onclick="alert('hai selezionato Monopattino Gino22')">
+                <label>Monopattino Gino22</label>
+                <div id="Gino22">
+                    <p><i class="fa-solid fa-arrow-right"></i> Via Guadalametri - a 220 metri da te</p><br>
+                    <p>Stato Carica</p>
+                </div>
+                <div id="Charge01"></div>
+            </div>
+            <div>
+                <input class="checkbox" type="checkbox" name="checkbox" onclick="alert('hai selezionato Monopattino Mike24')">
+                <label>Monopattino Mike24</label>
+                <div id="Mike24">
+                    <p><i class="fa-solid fa-arrow-right"></i> Via Ricciardoni - a 420 metri da te</p><br>
+                    <p>Stato Carica</p>
+                    <div id="Charge02"></div>
+                </div>
+            </div>
+            <div>
+                <input class="checkbox" type="checkbox" name="checkbox" onclick="alert('hai selezionato Monopattino Fede154')">
+                <label>Monopattino Fede154</label>
+                <div id="Fede154">
+                    <p><i class="fa-solid fa-arrow-right"></i> Via Mentarini - a 490 metri da te</p><br>
+                    <p>Stato Carica</p>
+                </div>
+                <div id="Charge03"></div>
+            </div>
+        </div>
 </body>
-
 
 </html>
