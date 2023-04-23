@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@&display=swap');
+
 body {
     margin: 0;
     
@@ -5,30 +7,48 @@ body {
 
 #backgroundImage{
     width: 100%;
-    position: absolute;
+    position: fixed;
 }
 
 #container {
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(0, 0, 0, 0.4); /* colore di sfondo semitrasparente */
     position: fixed;
-    top: 7%;
+    top: 3%;
     right: 17.5%;
     left: 17.5%;
     width: 65%;
-    height: 77%;
+    height: 80%;
     border-radius: 2%;
   }
 
 #logo {
-    width: 20%;
-    height: 20%;
-    object-fit: contain;
-    
+    margin-top: 4rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 0;
+    width: 10rem;
+    height: 5rem;
 }
 
 h1 {
-    font-size: 2rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    font-size: 1em;
     color: #00DD01;
-    align-items: center;
+    align-self: center;
+}
+
+#buttons {
+    margin-top: 0;
+    background-color: #00DD01;
+    position: fixed;
+    top: 30%;
+    right: 20%;
+    left: 20%;
+    width: 60%;
+    height: 2rem;
+    border-radius: 1%;
 }
   
