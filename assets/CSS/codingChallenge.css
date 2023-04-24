@@ -8,6 +8,7 @@ body {
 
 #backgroundImage{
     width: 100%;
+    position: absolute;
 }
 
 /* container semitrasparente contiene tutti gli altri elementi */
@@ -36,7 +37,7 @@ body {
 }
 
 #title {
-    position: relative;
+    position: absolute;
     margin-top:-20px;
     margin-left: 30%;
     margin-right: 27%;
@@ -66,7 +67,7 @@ body {
 
 .options {
     color: white;
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-left: 5.5rem;
     margin-right: 6rem;
     font-size: 1.3rem;
