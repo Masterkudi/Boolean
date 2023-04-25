@@ -7,8 +7,7 @@ body {
 /* Immagine di sfondo */
 
 #backgroundImage{
-    width: 100%;
-    position: absolute;
+    width: 100%;    
 }
 
 /* container semitrasparente contiene tutti gli altri elementi */
