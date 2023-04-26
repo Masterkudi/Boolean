@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+    border: 0;
+}
+
+#head {
+    background-color: lightblue;
+    height: 200px;
+    color: white;
+}
+
+.line {
+    margin: 0px;
+    font-weight: 100;
+}
+
+#img {
+    text-align: center;
+}
+
+h1 {
+   text-align: center;
+   margin: 0;
+}
+
+h2 {
+    color: seagreen;
+}
+
+h3 {
+    color: sandybrown;
+}
+
+i {
+    color: red;
+    font-size: smaller;
+}
