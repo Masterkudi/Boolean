@@ -2,12 +2,16 @@
 
 body {
     margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+
 }
 
 /* Immagine di sfondo */
 
 #backgroundImage{
-    width: 100%;    
+    width: 100%;
 }
 
 /* container semitrasparente contiene tutti gli altri elementi */

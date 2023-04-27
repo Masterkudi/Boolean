@@ -7,12 +7,10 @@ body {
     background-color: lightblue;
     height: 200px;
     color: white;
+    border-bottom: 3px solid black;
 }
 
-.line {
-    margin: 0px;
-    font-weight: 100;
-}
+
 
 #img {
     text-align: center;
