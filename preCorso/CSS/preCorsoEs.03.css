@@ -29,7 +29,7 @@ h3 {
     color: sandybrown;
 }
 
-i {
+.heart {
+    content: \2764;
     color: red;
-    font-size: smaller;
 }

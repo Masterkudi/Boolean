@@ -1,115 +1,81 @@
 body {
     background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
-    background-size: cover;
+    color: white;
 }
 
-.header {
-    height: 150px;
-    border: 0 auto;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-bottom: 2px solid lightgray;
-    color: #ffffff;
-    font-size: 40px;
+.container {
+    width: 1000px;
+    margin: auto;
 }
 
-#title {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 10px;
-    color: #ffffff;
-    
+.logo {
+    width: 100px;
 }
 
-
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-bottom: 2px solid lightgray;
-    font-size: 40px;
-}
-
-#tab1 {
-    line-height: 30px;
-    width: 50%;
-    margin-top: 0.5rem;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #d3d3d3;
+.logo-text {
+    font-size: 25px;
     display: inline-block;
-    border-bottom: 01px solid black;
 }
 
-#tab2 {
-    line-height: 30px;
-    
-    width: 50%;
-    margin-top: 0rem;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #d3d3d3;
-    display: inline-block;
-    border-bottom: 1px solid black;
-}
-#tab3 {
-    line-height: 30px;
-    width: 50%;
-    margin-top: 0rem;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #ffffff;
-    display: inline-block;
-    border-bottom: 1px solid black;
-}
-#tab4 {
-    line-height: 30px;
-    width: 50%;
-    margin-top: 0rem;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #d3d3d3;
-    display: inline-block;
-    border-bottom: 1px solid black;
-}
-#tab5 {
-    line-height: 30px;
-    width: 50%;
-    margin-top: 0rem;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #ffffff;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-
+h2 > span {
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
 }
 
-#footer {
-    border: 0 auto;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-top: 2px solid lightgray;
-    color: #ffffff;
-    font-size: 15px;
+.subject {
+    color: black;
+}
+
+.star {
+    color: orange;
+}
+
+.star:after {
+    content: "\2605";
+}
+
+.object {
+    color: grey;
+}
+
+.object:after {
+    content: '...';
+}
+
+.row {
+    color: black;
+}
+
+.email.read {
+    background-color: lightgrey;
+}
+
+.email.unread {
+    background-color: white;
+}
+
+.row-left, .row-right {
+    display: inline-block;
+}
+
+.row-left {
+    width: 30%;
+}
+
+.row-right {
+    width: 68%;
+}
+
+.subject {
+    /* */
+}
+
+footer {
     text-align: center;
 }
 
-#footer p {
-    font-size: 20px;
-
+footer > span {
+    font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
